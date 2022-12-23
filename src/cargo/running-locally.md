@@ -6,9 +6,18 @@ Book][1]. This should give you a working `rustc` and `cargo`. At the time of
 writing, the latest stable Rust release has these version numbers:
 
 ```shell
-% rustc --version
+rustc --version
+```
+
+```console
 rustc 1.61.0 (fe5b13d68 2022-05-18)
-% cargo --version
+```
+
+```shell
+cargo --version
+```
+
+```console
 cargo 1.61.0 (a028ae4 2022-04-29)
 ```
 
@@ -20,15 +29,21 @@ of the examples in this training:
 2. Use `cargo new exercise` to create a new `exercise/` directory for your code:
 
     ```shell
-    $ cargo new exercise
+    cargo new exercise
+    ```
+
+    ```console
          Created binary (application) `exercise` package
     ```
 
 3. Navigate into `exercise/` and use `cargo run` to build and run your binary:
 
     ```shell
-    $ cd exercise
-    $ cargo run
+    cd exercise
+    cargo run
+    ```
+
+    ```console
        Compiling exercise v0.1.0 (/home/mgeisler/tmp/exercise)
         Finished dev [unoptimized + debuginfo] target(s) in 0.75s
          Running `target/debug/exercise`
@@ -47,7 +62,10 @@ of the examples in this training:
 5. Use `cargo run` to build and run your updated binary:
 
     ```shell
-    $ cargo run
+    cargo run
+    ```
+
+    ```console
        Compiling exercise v0.1.0 (/home/mgeisler/tmp/exercise)
         Finished dev [unoptimized + debuginfo] target(s) in 0.24s
          Running `target/debug/exercise`

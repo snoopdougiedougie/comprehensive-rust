@@ -7,8 +7,8 @@ to the same data from multiple places:
 use std::rc::Rc;
 
 fn main() {
-    let mut a = Rc::new(10);
-    let mut b = a.clone();
+    let a = Rc::new(10);
+    let b = a.clone();
 
     println!("a: {a}");
     println!("b: {b}");
